@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: "jit",
-  purge: ["./src/**/*.{js,ts,jsx,tsx}"],
+  purge: ["./src/**/*.{js,ts,jsx,tsx}"], // specifies with files will get the style from tailwind
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
